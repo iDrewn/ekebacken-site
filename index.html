@@ -2,155 +2,105 @@
 <html lang="sv">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ekebacken – appen för Hotell &amp; Konferens i Markaryd</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ekebacken – appen för Hotell & Konferens i Markaryd</title>
   <meta name="description" content="Ekebackens app för iPhone och iPad: evenemang månad för månad, lunchmeny, rumsbokning och kontakt. Med widget och notiser om nya evenemang. Byggd för iOS 26.">
   <meta name="theme-color" content="#070a05">
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta property="og:title" content="Ekebacken – appen">
+  <meta property="og:title" content="Ekebacken">
   <meta property="og:description" content="Evenemang, lunch, rum och kontakt. Appen för Hotell &amp; Konferens Ekebacken i Markaryd.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://idrewn.github.io/ekebacken-site/">
   <meta property="og:image" content="https://idrewn.github.io/ekebacken-site/assets/og.jpg">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="motion.css">
+  <link rel="stylesheet" href="theme.css">
 </head>
 <body>
-<header class="nav">
-  <div class="wrap">
-    <a class="brand" href="./"><img src="assets/icon.jpg" alt="" width="22" height="22" style="border-radius:5px">Ekebacken</a>
-    <ul>
-      <li><a href="#evenemang">Evenemang</a></li>
-      <li><a href="#lunch">Lunch</a></li>
-      <li><a href="#kontakt">Kontakt</a></li>
-      <li><a href="#detaljer">Detaljer</a></li>
-      <li><a href="support.html">Support</a></li>
-    </ul>
-    <a class="buy" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta</a>
-  </div>
-</header>
-
+<div class="ambient" aria-hidden="true"></div>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="./"><img src="assets/icon.jpg" alt="" width="24" height="24">Ekebacken</a>
+  <ul><li><a href="#evenemang">Evenemang</a></li><li><a href="#ipad">iPad</a></li><li><a href="#details">Detaljer</a></li><li><a href="privacy.html">Integritet</a></li><li><a href="support.html">Support</a></li></ul>
+  <a class="buy" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta</a>
+</div></header>
 <main>
-  <div class="hero">
-    <div class="wrap">
+<section class="stage hero" id="top" style="--n:3.3" data-stage data-bg="#070a05" data-glow="95,214,162">
+  <div class="pin">
+    <div class="hero-copy" data-beat="-1,-0.5,0.2,0.46" data-travel="-110">
       <p class="eyebrow">Hotell &amp; Konferens &middot; Markaryd</p>
       <h1>Ekebacken.<br><span class="grad">Nära till hands.</span></h1>
       <p class="lead">Se vad som händer, kolla lunchmenyn, boka rum och hör av dig. Hotellets, restaurangens och konferensgårdens app, helt ny för iOS 26.</p>
-      <div class="cta">
-        <a class="pill fill" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta på App Store</a>
-        <a class="pill line" href="https://testflight.apple.com/join/n1Y09Ga0">Testa betan</a>
-      </div>
-      <div class="phones">
-        <img class="a" src="assets/phone-event.png" alt="Ett evenemang med karta och kalenderknapp" width="1100" height="1988">
-        <img class="b" src="assets/phone-home.png" alt="Hem: kommande evenemang" width="1100" height="1988">
-        <img class="c" src="assets/phone-lunch.png" alt="Lunchmenyn med priser" width="1100" height="1988">
-      </div>
+      <div class="cta"><a class="pill fill" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta på App Store</a><a class="pill line" href="https://testflight.apple.com/join/n1Y09Ga0">Testa betan</a></div>
     </div>
+    <p class="hero-tag" data-beat="0.42,0.62,2,3" data-travel="50">Allt på gården.<br><span class="grad">I fickan.</span></p>
+    <div class="fan"><div class="device" data-motion="fan" data-i="0" data-n="3"><img src="assets/phone-event.png" alt="Ett evenemang med karta och kalenderknapp" width="1306" height="2360" loading=eager></div><div class="device" data-motion="fan" data-i="1" data-n="3"><img src="assets/phone-home.png" alt="Hem: kommande evenemang" width="1306" height="2360"></div><div class="device" data-motion="fan" data-i="2" data-n="3"><img src="assets/phone-lunch.png" alt="Lunchmenyn med priser" width="1306" height="2360" loading=eager></div></div>
   </div>
-
-  <section id="evenemang">
-    <div class="wrap split">
-      <div class="shot reveal"><img src="assets/phone-home.png" alt="Hem med kommande evenemang som stora kort" loading="lazy" width="1100" height="1988"></div>
-      <div class="text reveal">
+</section>
+<section class="stage" id="evenemang" style="--n:5.05" data-stage data-bg="#0b140a" data-glow="95,214,162">
+  <i class="mark" aria-hidden="true" data-bg="#0b140a" data-glow="95,214,162" style="position:absolute;left:0;top:19.93%;width:1px;height:1px"></i>
+<i class="mark" aria-hidden="true" data-bg="#0d1a0f" data-glow="60,190,130" style="position:absolute;left:0;top:39.98%;width:1px;height:1px"></i>
+<i class="mark" aria-hidden="true" data-bg="#0b1a12" data-glow="80,200,160" style="position:absolute;left:0;top:60.02%;width:1px;height:1px"></i>
+<i class="mark" aria-hidden="true" data-bg="#0a150b" data-glow="95,214,162" style="position:absolute;left:0;top:80.07%;width:1px;height:1px"></i>
+  <div class="pin split">
+    <div class="copy"><div class="beat" data-beat="-1.000,-0.500,0.200,0.300">
         <p class="eyebrow">Hem</p>
         <h2>Se vad som händer.</h2>
         <p>Kommande evenemang månad för månad, som stora kort med bild, tid och plats. Öppna ett evenemang för beskrivning, pris, karta och knappar, till exempel &rdquo;Boka bord&rdquo;.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="light">
-    <div class="wrap split rev">
-      <div class="shot reveal"><img src="assets/phone-event.png" alt="Evenemangssida med lägg i kalender och karta" loading="lazy" width="1100" height="1988"></div>
-      <div class="text reveal">
+      </div><div class="beat" data-beat="0.200,0.300,0.450,0.550">
         <p class="eyebrow">Evenemang</p>
         <h2>Ett tryck till kalendern.</h2>
         <p>Lägg evenemanget i din kalender direkt, och få vägbeskrivning med Apple Kartor. Appen kan bara lägga till det du väljer, den kan inte läsa din kalender.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="lunch">
-    <div class="wrap split">
-      <div class="shot reveal"><img src="assets/phone-lunch.png" alt="Lunchmenyn med rätter och priser" loading="lazy" width="1100" height="1988"></div>
-      <div class="text reveal">
+      </div><div class="beat" data-beat="0.450,0.550,0.700,0.800">
         <p class="eyebrow">Lunchcaféet</p>
         <h2>Dagens lunch, med priser.</h2>
         <p>Menyn från lunchcaféet, med rätter och kronor på ett ställe. Den sparas på telefonen, så du ser den även utan uppkoppling.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="light" id="kontakt">
-    <div class="wrap split rev">
-      <div class="shot reveal"><img src="assets/phone-contact.png" alt="Kontaktformuläret" loading="lazy" width="1100" height="1988"></div>
-      <div class="text reveal">
+      </div><div class="beat" data-beat="0.700,0.800,2.000,3.000">
         <p class="eyebrow">Kontakt</p>
         <h2>Hör av dig.</h2>
         <p>Skriv till hotellet eller skicka en bordsförfrågan. Din egen e-postapp öppnas med ett färdigt meddelande, så inget lämnar telefonen förrän du skickar det. Fliken Boende tar dig rakt till rumsbokningen.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap center">
-      <p class="eyebrow">iPad</p>
-      <h2>Och på den stora skärmen.</h2>
-      <p class="lead">Evenemangen ligger i ett rutnät på iPad, med fliken högst upp.</p>
-      <div class="ipad reveal"><img src="assets/ipad-home.png" alt="Ekebacken på iPad: evenemang i ett rutnät" loading="lazy" width="1300" height="1593"></div>
-    </div>
-  </section>
-
-  <div class="band">
-    <div class="wrap">
-      <h2>Byggd för iOS 26.</h2>
-      <p>Liquid Glass och Ekebackens gröna färger, även i mörkt läge. En helt ny app, byggd från grunden.</p>
-    </div>
+      </div></div>
+    <div class="devwrap"><div class="device" data-motion="sway"><img data-beat="-1.000,-0.500,0.190,0.310" src="assets/phone-home.png" alt="Hem med kommande evenemang" loading="lazy" width=1306 height=2360><img data-beat="0.190,0.310,0.440,0.560" src="assets/phone-event.png" alt="Ett evenemang med karta" loading="lazy" width=1306 height=2360><img data-beat="0.440,0.560,0.690,0.810" src="assets/phone-lunch.png" alt="Lunchmenyn" loading="lazy" width=1306 height=2360><img data-beat="0.690,0.810,2.000,3.000" src="assets/phone-contact.png" alt="Kontaktformuläret" loading="lazy" width=1306 height=2360></div></div>
   </div>
-
-  <section id="detaljer">
-    <div class="wrap center">
-      <p class="eyebrow">Detaljer</p>
-      <h2>Små saker som gör skillnad.</h2>
-      <div class="bento">
-        <div class="tile hero-tile"><span class="k">Widget</span><h3>Nästa evenemang på hemskärmen</h3><p>Lägg till widgeten och se vad som händer härnäst utan att öppna appen.</p></div>
-        <div class="tile"><span class="k">Notiser</span><h3>Nytt på gården</h3><p>Valfria notiser när nya evenemang läggs upp. Enkla att stänga av.</p></div>
-        <div class="tile"><span class="k">Offline</span><h3>Alltid till hands</h3><p>Senast hämtade evenemang och meny sparas på telefonen.</p></div>
-        <div class="tile"><span class="k">Boende</span><h3>Boka rum</h3><p>Hotellets bokningsmotor direkt i appen. Inga betalningar sker i appen.</p></div>
-        <div class="tile"><span class="k">Privat</span><h3>Inga konton</h3><p>Ingen reklam och ingen spårning. <a href="privacy.html">Läs om integritet</a>.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="light" id="hamta">
-    <div class="wrap center">
-      <img src="assets/icon.jpg" alt="Ekebacken, appikon" width="120" height="120" style="margin:0 auto 26px;border-radius:27px;box-shadow:0 14px 40px rgba(44,154,106,.35)">
-      <h2>Hämta Ekebacken.</h2>
-      <p class="lead">Gratis, på App Store. Krav: iPhone eller iPad med iOS 26 eller senare.</p>
-      <div class="cta">
-        <a class="pill fill" style="background:#2c9a6a;color:#fff" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta på App Store</a>
-        <a class="pill line" style="border-color:#2c9a6a;color:#2c7a4f" href="https://testflight.apple.com/join/n1Y09Ga0">Testa betan</a>
-      </div>
-      <p class="note" style="color:#6e6e73">Skärmbilderna visar innehåll från ekebacken.net.</p>
-    </div>
-  </section>
-</main>
-
-<footer>
+</section>
+<section class="stage" id="ipad" style="--n:3.15" data-stage data-bg="#0c1509" data-glow="120,220,150">
+  <i class="mark" aria-hidden="true" data-bg="#0c1509" data-glow="120,220,150" style="position:absolute;left:0;top:32.94%;width:1px;height:1px"></i>
+<i class="mark" aria-hidden="true" data-bg="#0a1a10" data-glow="60,190,130" style="position:absolute;left:0;top:67.06%;width:1px;height:1px"></i>
+  <div class="pin split flip">
+    <div class="copy"><div class="beat" data-beat="-1.000,-0.500,0.450,0.550">
+        <p class="eyebrow">iPad</p>
+        <h2>Och på den stora skärmen.</h2>
+        <p>Evenemangen ligger i ett rutnät på iPad, med flikarna högst upp.</p>
+      </div><div class="beat" data-beat="0.450,0.550,2.000,3.000">
+        <p class="eyebrow">iPad</p>
+        <h2>Alla detaljer, större.</h2>
+        <p>Beskrivning, karta och kalenderknapp på ett och samma blad.</p>
+      </div></div>
+    <div class="devwrap"><div class="device wide plain" data-motion="wide" style="aspect-ratio:1306/1600"><img data-beat="-1.000,-0.500,0.440,0.560" src="assets/ipad-home.png" alt="Ekebacken på iPad: evenemang i ett rutnät" loading="lazy" width=1306 height=1600><img data-beat="0.440,0.560,2.000,3.000" src="assets/ipad-event.png" alt="Ett evenemang på iPad" loading="lazy" width=1306 height=1600></div></div>
+  </div>
+</section>
+<section class="stage numbers" style="--n:2.6" data-stage data-bg="#0a150a" data-glow="95,214,162">
+  <div class="pin"><div class="row" data-zoom><div><div class="n grad" data-count="0" data-pre="" data-suf=" kr">0</div><div class="l">kostnad</div></div><div><div class="n grad" data-count="0" data-pre="" data-suf="">0</div><div class="l">konton</div></div><div><div class="n grad" data-count="0" data-pre="" data-suf="">0</div><div class="l">annonser</div></div></div><p class="sentence">Gratis, utan konton, reklam eller spårning.</p></div>
+</section>
+<section class="block center" id="details" data-bg="#070a05" data-glow="95,214,162">
   <div class="wrap">
-    <p>&copy; 2026 Ekebacken. Appen är gjord av <a href="https://github.com/iDrewn">Anders Johansson</a> för Hotell &amp; Konferens Ekebacken, Markaryd. iPhone, iPad och iOS är varumärken som tillhör Apple Inc.</p>
-    <p><a href="privacy.html">Integritet</a> &middot; <a href="support.html">Support</a> &middot; <a href="https://ekebacken.net">ekebacken.net</a></p>
+    <p class="eyebrow" data-reveal>Detaljer</p>
+    <h2 data-reveal>Små saker som gör skillnad.</h2>
+    
+    <div class="bento"><div class="tile w4 hot" data-reveal><span class="k">Widget</span><h3>Nästa evenemang på hemskärmen.</h3><p>Lägg till widgeten och se vad som händer härnäst utan att öppna appen.</p></div><div class="tile " data-reveal><span class="k">Notiser</span><h3>Nytt på gården.</h3><p>Valfria notiser när nya evenemang läggs upp. Enkla att stänga av.</p></div><div class="tile " data-reveal><span class="k">Offline</span><h3>Alltid till hands.</h3><p>Senast hämtade evenemang och meny sparas på telefonen.</p></div><div class="tile " data-reveal><span class="k">Boende</span><h3>Boka rum.</h3><p>Hotellets bokningsmotor direkt i appen. Inga betalningar sker i appen.</p></div><div class="tile " data-reveal><span class="k">Design</span><h3>Byggd för iOS 26.</h3><p>Liquid Glass och Ekebackens gröna färger, även i mörkt läge.</p></div><div class="tile w6" data-reveal><span class="k">Privat</span><h3>Inga konton.</h3><p>Ingen reklam och ingen spårning. <a href="privacy.html">Läs om integritet</a>.</p></div></div>
   </div>
-</footer>
-<script>
-  (function () {
-    var els = document.querySelectorAll('.reveal');
-    if (!('IntersectionObserver' in window)) { els.forEach(function (e) { e.classList.add('in'); }); return; }
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
-    }, { threshold: 0.15 });
-    els.forEach(function (e) { io.observe(e); });
-  })();
-</script>
+</section>
+<section class="cta-block" id="get" data-bg="#070a05" data-glow="95,214,162">
+  <div class="wrap">
+    <img class="icon" src="assets/icon.jpg" alt="Ekebacken app icon" width="132" height="132" data-reveal>
+    <h2 data-reveal>Hämta Ekebacken.</h2>
+    <p class="lead" data-reveal>Gratis, på App Store. Krav: iPhone eller iPad med iOS 26 eller senare.</p>
+    <div class="cta" data-reveal><a class="pill fill" href="https://apps.apple.com/se/app/ekebacken/id1541043155">Hämta på App Store</a><a class="pill line" href="https://testflight.apple.com/join/n1Y09Ga0">Testa betan</a></div>
+    <p class="lead" style="font-size:14px;margin-top:22px" data-reveal>Skärmbilderna visar innehåll från ekebacken.net.</p>
+  </div>
+</section>
+</main>
+<footer><div class="wrap"><p>&copy; 2026 Ekebacken. Appen är gjord av <a href="https://github.com/iDrewn">Anders Johansson</a> för Hotell &amp; Konferens Ekebacken, Markaryd. iPhone, iPad och iOS är varumärken som tillhör Apple Inc.</p>
+    <p><a href="privacy.html">Integritet</a> &middot; <a href="support.html">Support</a> &middot; <a href="https://ekebacken.net">ekebacken.net</a></p></div></footer>
+<script src="motion.js" defer></script>
 </body>
 </html>
